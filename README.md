@@ -1,6 +1,6 @@
 # FastCamera
 
-A simple, practical camera for Android.You can use FastCamera to Start system camera,then Compress images,crop pictures,or do nothing.It can be used to upload pictures and modify images and so on.
+A simple, practical camera for Android.You can use FastCamera to Start system camera,then Compress images,crop pictures,or do nothing.It can be used to upload pictures and modify avatar and so on.
 
 <img src="/preview/preview1.png" height="400px"></img>
 <img src="/preview/preview2.png" height="400px"></img>
@@ -37,11 +37,11 @@ Open the FastCamera
 
 ```
 FastCamera.with(this)
-		.requestCode(REQUEST_CAMERA_CODE)
-		.start();
+	.requestCode(REQUEST_CAMERA_CODE)
+	.start();
 ```
 
-And you can get the raw photo path
+And you can get the raw photo path.Note that the unprocessed file size is too large
 
 ```
 @Override
@@ -57,19 +57,19 @@ If you want to get the compressed path,you can use
 
 ```
 FastCamera.with(this)
-		.requestCode(REQUEST_CAMERA_CODE)
-		.needCompress(true)
-		.start();
+	.requestCode(REQUEST_CAMERA_CODE)
+	.needCompress(true)
+	.start();
 ```
 
 If you want to get the crop picture,you can use
 
 ```
 FastCamera.with(this)
-		.requestCode(REQUEST_CAMERA_CODE)
-		.needCrop(true)
-		.cropSize(1, 1, 800, 800)
-		.start();
+	.requestCode(REQUEST_CAMERA_CODE)
+	.needCrop(true)
+	.cropSize(1, 1, 800, 800)
+	.start();
 ```
 
 # Changelog
