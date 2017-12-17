@@ -1,4 +1,4 @@
-package com.handsome.library;
+package com.handsome.camera;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

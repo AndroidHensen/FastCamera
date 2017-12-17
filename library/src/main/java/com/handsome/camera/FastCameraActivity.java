@@ -1,4 +1,4 @@
-package com.handsome.library;
+package com.handsome.camera;
 
 import android.Manifest;
 import android.app.Activity;

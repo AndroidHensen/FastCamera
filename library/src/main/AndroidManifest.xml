@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.handsome.library">
+    package="com.handsome.camera">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -11,7 +11,7 @@
         android:supportsRtl="true">
 
         <activity
-            android:name=".FastCameraActivity"
+            android:name="com.handsome.camera.FastCameraActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
         <provider

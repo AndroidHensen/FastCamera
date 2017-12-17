@@ -6,8 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.handsome.library.FastCameraActivity;
-import com.handsome.library.FastCamera;
+import com.handsome.camera.FastCamera;
 
 public class MainActivity extends AppCompatActivity {
 

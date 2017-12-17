@@ -1,13 +1,10 @@
-package com.handsome.library;
+package com.handsome.camera;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.Fragment;
 
 import java.io.Serializable;
-
-import top.zibin.luban.Luban;
 
 /**
  * =====作者=====
